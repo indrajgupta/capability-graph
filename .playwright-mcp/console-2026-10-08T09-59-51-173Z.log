@@ -1,0 +1,21 @@
+[     232ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=7f3d2386:15804
+[    1944ms] Error: Maximum update depth exceeded. This can happen when a component repeatedly calls setState inside componentWillUpdate or componentDidUpdate. React limits the number of nested updates to prevent infinite loops.
+    at getRootForUpdatedFiber (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=7f3d2386:2786:166)
+    at enqueueConcurrentRenderForLane (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=7f3d2386:2776:11)
+    at forceStoreRerender (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=7f3d2386:4772:15)
+    at http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=7f3d2386:4758:101
+    at http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=7f3d2386:6009:36
+    at Set.forEach (<anonymous>)
+    at setState (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=7f3d2386:6009:14)
+    at setNodes (http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=7f3d2386:9711:11)
+    at http://localhost:5173/node_modules/.vite/deps/@xyflow_react.js?v=7f3d2386:6370:31
+    at Object.react_stack_bottom_frame (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=7f3d2386:14178:13)
+[    1944ms] [WARNING] %s
+
+%s
+ An error occurred in the <StoreUpdater> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://localhost:5173/@vite/client:356
+[  368065ms] [ERROR] The final argument passed to %s changed size between renders. The order and size of this array must remain constant.
+
+Previous: %s
+Incoming: %s useEffect [, , , , [object Map], function () { [native code] }, function () { [native code] }] [, , , , [object Map]] @ http://localhost:5173/@vite/client:356

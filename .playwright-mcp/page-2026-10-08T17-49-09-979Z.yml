@@ -1,0 +1,22 @@
+- generic [ref=e731]:
+  - generic [ref=e732]: CapabilityGraph
+  - generic [ref=e737]:
+    - generic [ref=e738]:
+      - heading "Building your capability graph" [level=2] [ref=e739]
+      - paragraph [ref=e740]: Dify AI workflow is structuring entities and relations...
+      - generic [ref=e741]:
+        - generic [ref=e742]: Reading your professional information
+        - generic [ref=e747]: Connecting to Dify AI workflow
+        - generic [ref=e752]: Extracting projects & technologies
+        - generic [ref=e757]: Synthesizing capabilities & evidence
+        - generic [ref=e762]: Validating graph ontology rules
+    - img [ref=e768]:
+      - generic [ref=e773]: FarmSeva
+      - generic [ref=e776]: React
+      - generic [ref=e779]: Vite
+      - generic [ref=e782]: Supabase
+      - generic [ref=e785]: AI Integ
+      - generic [ref=e788]: GitHub
+  - generic [ref=e791]:
+    - paragraph [ref=e792]: Your capability graph is ready for review.
+    - button "Review graph →" [ref=e793] [cursor=pointer]

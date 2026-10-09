@@ -1,0 +1,30 @@
+- generic [ref=f3e3]:
+  - generic [ref=f3e6]:
+    - generic [ref=f3e7]: CapabilityGraph
+    - heading "Your professional identity, connected." [level=1] [ref=f3e12]
+    - paragraph [ref=f3e13]: Turn your skills, projects, experience and evidence into an interactive capability graph.
+    - img [ref=f3e14]:
+      - generic [ref=f3e20]: IG
+      - generic [ref=f3e22]: FarmSeva
+      - generic [ref=f3e24]: React
+      - generic [ref=f3e26]: AI Integration
+      - generic [ref=f3e28]: Supabase
+      - generic [ref=f3e30]: Full-Stack
+  - generic [ref=f3e32]:
+    - heading "Welcome back" [level=2] [ref=f3e33]
+    - paragraph [ref=f3e34]: Sign in to your capability graph
+    - generic [ref=f3e35]:
+      - generic [ref=f3e36]:
+        - generic [ref=f3e37]: Email
+        - textbox "you@example.com" [ref=f3e38]
+      - generic [ref=f3e39]:
+        - generic [ref=f3e40]: Password
+        - generic [ref=f3e41]:
+          - textbox "••••••••" [ref=f3e42]
+          - button [ref=f3e43] [cursor=pointer]
+      - button "Continue" [ref=f3e47] [cursor=pointer]
+    - generic [ref=f3e50]:
+      - button "Forgot password?" [ref=f3e51] [cursor=pointer]
+      - generic [ref=f3e52]:
+        - text: Don't have an account?
+        - button "Create account" [ref=f3e53] [cursor=pointer]

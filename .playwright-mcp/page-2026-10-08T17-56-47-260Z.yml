@@ -1,0 +1,111 @@
+- generic [ref=e794]:
+  - generic [ref=e795]: CapabilityGraph · AI Review
+  - generic [ref=e800]:
+    - generic [ref=e801]:
+      - generic [ref=e802]:
+        - generic [ref=e803]:
+          - heading "AI Extracted Entities" [level=2] [ref=e804]
+          - paragraph [ref=e805]: Review before approving insertion into graph.
+        - generic [ref=e806]: 11 confirmed
+      - generic [ref=e807]:
+        - generic [ref=e808]: Projects (1)
+        - generic [ref=e814]:
+          - generic [ref=e816]: FarmSeva
+          - button [ref=e817] [cursor=pointer]
+      - generic [ref=e820]:
+        - generic [ref=e821]: Technologies (5)
+        - generic [ref=e827]:
+          - generic [ref=e828]:
+            - generic [ref=e830]: React
+            - button [ref=e831] [cursor=pointer]
+          - generic [ref=e834]:
+            - generic [ref=e836]: Vite
+            - button [ref=e837] [cursor=pointer]
+          - generic [ref=e840]:
+            - generic [ref=e842]: Supabase
+            - button [ref=e843] [cursor=pointer]
+          - generic [ref=e846]:
+            - generic [ref=e848]: Lyzr
+            - button [ref=e849] [cursor=pointer]
+          - generic [ref=e852]:
+            - generic [ref=e854]: Vercel
+            - button [ref=e855] [cursor=pointer]
+      - generic [ref=e858]:
+        - generic [ref=e859]: Skills (3)
+        - generic [ref=e863]:
+          - generic [ref=e864]:
+            - generic [ref=e866]: React
+            - button [ref=e867] [cursor=pointer]
+          - generic [ref=e870]:
+            - generic [ref=e872]: Python
+            - button [ref=e873] [cursor=pointer]
+          - generic [ref=e876]:
+            - generic [ref=e878]: AI Integration
+            - button [ref=e879] [cursor=pointer]
+      - generic [ref=e882]:
+        - generic [ref=e883]: Evidence (1)
+        - generic [ref=e890]:
+          - generic [ref=e892]: GitHub Repository
+          - button [ref=e893] [cursor=pointer]
+    - generic [ref=e896]:
+      - generic [ref=e897]:
+        - generic [ref=e898]:
+          - generic [ref=e899]: Graph Relationships (10)
+          - generic [ref=e900]: Graph rules verified
+        - generic [ref=e901]:
+          - generic [ref=e902]:
+            - generic [ref=e903]: Indraj Gupta
+            - generic [ref=e906]: BUILT
+            - generic [ref=e909]: FarmSeva
+            - button [ref=e910] [cursor=pointer]
+          - generic [ref=e913]:
+            - generic [ref=e914]: FarmSeva
+            - generic [ref=e917]: USES_TECHNOLOGY
+            - generic [ref=e920]: React
+            - button [ref=e921] [cursor=pointer]
+          - generic [ref=e924]:
+            - generic [ref=e925]: FarmSeva
+            - generic [ref=e928]: USES_TECHNOLOGY
+            - generic [ref=e931]: Vite
+            - button [ref=e932] [cursor=pointer]
+          - generic [ref=e935]:
+            - generic [ref=e936]: FarmSeva
+            - generic [ref=e939]: USES_TECHNOLOGY
+            - generic [ref=e942]: Supabase
+            - button [ref=e943] [cursor=pointer]
+          - generic [ref=e946]:
+            - generic [ref=e947]: FarmSeva
+            - generic [ref=e950]: USES_TECHNOLOGY
+            - generic [ref=e953]: Lyzr
+            - button [ref=e954] [cursor=pointer]
+          - generic [ref=e957]:
+            - generic [ref=e958]: FarmSeva
+            - generic [ref=e961]: USES_TECHNOLOGY
+            - generic [ref=e964]: Vercel
+            - button [ref=e965] [cursor=pointer]
+          - generic [ref=e968]:
+            - generic [ref=e969]: Indraj Gupta
+            - generic [ref=e972]: HAS_SKILL
+            - generic [ref=e975]: React
+            - button [ref=e976] [cursor=pointer]
+          - generic [ref=e979]:
+            - generic [ref=e980]: Indraj Gupta
+            - generic [ref=e983]: HAS_SKILL
+            - generic [ref=e986]: Python
+            - button [ref=e987] [cursor=pointer]
+          - generic [ref=e990]:
+            - generic [ref=e991]: Indraj Gupta
+            - generic [ref=e994]: HAS_SKILL
+            - generic [ref=e997]: AI Integration
+            - button [ref=e998] [cursor=pointer]
+          - generic [ref=e1001]:
+            - generic [ref=e1002]: FarmSeva
+            - generic [ref=e1005]: SUPPORTED_BY
+            - generic [ref=e1008]: GitHub Repository
+            - button [ref=e1009] [cursor=pointer]
+      - paragraph [ref=e1015]: AI results will NOT be committed to Supabase until you approve. Uncheck items to exclude or click Edit to modify names.
+      - generic [ref=e1016]:
+        - button "Approve & Build Graph" [ref=e1017] [cursor=pointer]
+        - generic [ref=e1021]:
+          - button "Edit" [ref=e1022] [cursor=pointer]
+          - button "Reject" [ref=e1025] [cursor=pointer]

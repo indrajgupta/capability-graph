@@ -1,0 +1,123 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - textbox "Search skills, projects, technologies..." [ref=e10]
+    - generic [ref=e11]:
+      - button "AI Analysis" [ref=e12] [cursor=pointer]
+      - button [ref=e16] [cursor=pointer]
+      - button "I" [ref=e21] [cursor=pointer]
+  - generic [ref=e25]:
+    - complementary [ref=e26]:
+      - generic [ref=e27]: CapabilityGraph
+      - generic [ref=e32]:
+        - generic [ref=e33]:
+          - generic [ref=e34]: OVERVIEW
+          - button [ref=e35] [cursor=pointer]
+          - button [ref=e43] [cursor=pointer]
+        - generic [ref=e49]:
+          - generic [ref=e50]: BUILD
+          - button [ref=e51] [cursor=pointer]
+          - button [ref=e54] [cursor=pointer]
+          - button [active] [ref=e59] [cursor=pointer]
+        - generic [ref=e63]:
+          - generic [ref=e64]: PROFILE
+          - button [ref=e65] [cursor=pointer]
+          - button [ref=e70] [cursor=pointer]
+          - button [ref=e75] [cursor=pointer]
+        - generic [ref=e80]:
+          - generic [ref=e81]: SYSTEM
+          - button [ref=e82] [cursor=pointer]
+      - generic [ref=e88] [cursor=pointer]:
+        - generic [ref=e89]: I
+        - generic [ref=e90]:
+          - generic [ref=e91]: Indraj Gupta
+          - generic [ref=e92]: AI/ML Developer
+    - generic [ref=e876]:
+      - generic [ref=e877]:
+        - generic [ref=e878]:
+          - heading "Skills & Evidence Model" [level=1] [ref=e879]
+          - paragraph [ref=e880]: Classified by genuine evidence proof — no arbitrary competence percentages.
+        - generic [ref=e881]:
+          - button "all" [ref=e882] [cursor=pointer]
+          - button "demonstrated" [ref=e883] [cursor=pointer]
+          - button "used" [ref=e884] [cursor=pointer]
+          - button "claimed" [ref=e885] [cursor=pointer]
+      - generic [ref=e886]:
+        - generic [ref=e887]:
+          - heading "Demonstrated (4)" [level=2] [ref=e889]
+          - generic [ref=e890]: — Code repositories, live demos, and artifacts support these claims
+        - generic [ref=e891]:
+          - generic [ref=e892]:
+            - generic [ref=e893]:
+              - generic [ref=e894]: Python
+              - button "Graph" [ref=e899] [cursor=pointer]
+            - paragraph [ref=e902]: Core programming language for backend AI workflows and data processing.
+            - generic [ref=e903]:
+              - generic [ref=e904]: Backed by verified projects
+              - generic [ref=e905]: demonstrated
+          - generic [ref=e906]:
+            - generic [ref=e907]:
+              - generic [ref=e908]: React
+              - button "Graph" [ref=e913] [cursor=pointer]
+            - paragraph [ref=e916]: Modern reactive frontend development with state management.
+            - generic [ref=e917]:
+              - generic [ref=e918]: Backed by verified projects
+              - generic [ref=e919]: demonstrated
+          - generic [ref=e920]:
+            - generic [ref=e921]:
+              - generic [ref=e922]: AI/ML
+              - button "Graph" [ref=e927] [cursor=pointer]
+            - paragraph [ref=e930]: Prompt engineering, RAG, agentic workflows, and LLM orchestration.
+            - generic [ref=e931]:
+              - generic [ref=e932]: Backed by verified projects
+              - generic [ref=e933]: demonstrated
+          - generic [ref=e934]:
+            - generic [ref=e935]:
+              - generic [ref=e936]: Problem Solving
+              - button "Graph" [ref=e941] [cursor=pointer]
+            - paragraph [ref=e944]: End-to-end architecture design and production debugging.
+            - generic [ref=e945]:
+              - generic [ref=e946]: Backed by verified projects
+              - generic [ref=e947]: demonstrated
+      - generic [ref=e948]:
+        - generic [ref=e949]:
+          - heading "Used (1)" [level=2] [ref=e951]
+          - generic [ref=e952]: — Applied in real engineering tasks and workflows
+        - generic [ref=e954]:
+          - generic [ref=e955]:
+            - generic [ref=e956]: Data Structures
+            - button "Graph" [ref=e961] [cursor=pointer]
+          - paragraph [ref=e964]: Graph algorithms, hash indexing, and efficient traversal.
+          - generic [ref=e965]:
+            - generic [ref=e966]: Used in workflows
+            - generic [ref=e967]: used
+      - generic [ref=e968]:
+        - generic [ref=e969]:
+          - heading "Claimed (1)" [level=2] [ref=e971]
+          - generic [ref=e972]: — User knowledge awaiting project or credential linkage
+        - generic [ref=e974]:
+          - generic [ref=e975]:
+            - generic [ref=e976]: System Design
+            - button "Graph" [ref=e981] [cursor=pointer]
+          - paragraph [ref=e984]: Distributed services and caching patterns (awaiting large-scale project link).
+          - generic [ref=e985]:
+            - generic [ref=e986]: Self-declared knowledge
+            - generic [ref=e987]: claimed
+  - generic [ref=e645]:
+    - generic [ref=e646]:
+      - generic [ref=e647]: "3"
+      - generic [ref=e648]: Projects
+    - generic [ref=e650]:
+      - generic [ref=e651]: "6"
+      - generic [ref=e652]: Skills
+    - generic [ref=e654]:
+      - generic [ref=e655]: "8"
+      - generic [ref=e656]: Technologies
+    - generic [ref=e658]:
+      - generic [ref=e659]: "5"
+      - generic [ref=e660]: Capabilities
+    - generic [ref=e662]:
+      - generic [ref=e663]: "41"
+      - generic [ref=e664]: Connections
+    - generic [ref=e666]:
+      - generic [ref=e667]: "3"
+      - generic [ref=e668]: Evidence

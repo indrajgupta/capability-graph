@@ -1,0 +1,20 @@
+[     416ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=f836667a:15804
+[     776ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://bxrurcqgzrjqcrbbblgz.supabase.co/rest/v1/graphs?select=*&user_id=eq.20579029-a62f-4a52-97cf-864b5b9df58c&order=created_at.desc:0
+[     821ms] [WARNING] [GraphStore] Graphs table query error: Could not find the table 'public.graphs' in the schema cache @ http://localhost:5173/@vite/client:356
+[    1791ms] [WARNING] React Flow: It seems like you are hiding the attribution. Please only do this when you are subscribed to React Flow Pro: https://reactflow.dev/remove-attr
+%cYou can ignore this warning if you are subscribed. font-style: italic; @ http://localhost:5173/@vite/client:356
+[   46735ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5173/src/services/graphStore.ts?t=1791531026724:0
+[   46737ms] [ERROR] [vite] Failed to reload /src/components/dashboard/Header.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:5173/@vite/client:356
+[   46738ms] [ERROR] [vite] Failed to reload /src/components/dashboard/AddInformationModal.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:5173/@vite/client:356
+[   46738ms] [ERROR] [vite] Failed to reload /src/components/dashboard/SkillsView.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:5173/@vite/client:356
+[   46739ms] [ERROR] [vite] Failed to reload /src/components/dashboard/ProjectsView.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:5173/@vite/client:356
+[   46739ms] [ERROR] [vite] Failed to reload /src/components/graph/CapabilityGraph.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:5173/@vite/client:356
+[   46739ms] [ERROR] [vite] Failed to reload /src/components/dashboard/EducationView.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:5173/@vite/client:356
+[   46739ms] [ERROR] [vite] Failed to reload /src/components/dashboard/GraphSelectorDropdown.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:5173/@vite/client:356
+[   46740ms] [ERROR] [vite] Failed to reload /src/pages/DashboardPage.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:5173/@vite/client:356
+[   46740ms] [ERROR] [vite] Failed to reload /src/components/dashboard/Stats.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:5173/@vite/client:356
+[   46740ms] [ERROR] [vite] Failed to reload /src/components/dashboard/ExperienceView.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:5173/@vite/client:356
+[   46741ms] [ERROR] [vite] Failed to reload /src/components/dashboard/EvidenceView.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:5173/@vite/client:356
+[   46741ms] [ERROR] [vite] Failed to reload /src/pages/AIReviewPage.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:5173/@vite/client:356
+[   74771ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://bxrurcqgzrjqcrbbblgz.supabase.co/rest/v1/graphs?select=*&user_id=eq.20579029-a62f-4a52-97cf-864b5b9df58c&order=created_at.desc:0
+[   74772ms] [WARNING] [GraphStore] Graphs table query error: Could not find the table 'public.graphs' in the schema cache @ http://localhost:5173/@vite/client:356

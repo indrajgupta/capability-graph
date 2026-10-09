@@ -1,0 +1,81 @@
+- generic [ref=e669]:
+  - banner [ref=e670]:
+    - textbox "Search skills, projects, technologies..." [ref=e676]
+    - generic [ref=e677]:
+      - button "AI Analysis" [ref=e678] [cursor=pointer]
+      - button [ref=e682] [cursor=pointer]
+      - button "I" [ref=e687] [cursor=pointer]
+  - generic [ref=e691]:
+    - complementary [ref=e692]:
+      - generic [ref=e693]: CapabilityGraph
+      - generic [ref=e698]:
+        - generic [ref=e699]:
+          - generic [ref=e700]: OVERVIEW
+          - button [ref=e701] [cursor=pointer]
+          - button [ref=e708] [cursor=pointer]
+        - generic [ref=e714]:
+          - generic [ref=e715]: BUILD
+          - button [ref=e716] [cursor=pointer]
+          - button [ref=e719] [cursor=pointer]
+          - button [ref=e724] [cursor=pointer]
+        - generic [ref=e728]:
+          - generic [ref=e729]: PROFILE
+          - button [ref=e730] [cursor=pointer]
+          - button [ref=e735] [cursor=pointer]
+          - button [ref=e740] [cursor=pointer]
+        - generic [ref=e745]:
+          - generic [ref=e746]: SYSTEM
+          - button [active] [ref=e747] [cursor=pointer]
+      - generic [ref=e754] [cursor=pointer]:
+        - generic [ref=e755]: I
+        - generic [ref=e756]:
+          - generic [ref=e757]: Indraj Gupta
+          - generic [ref=e758]: AI/ML Developer
+    - generic [ref=e762]:
+      - generic [ref=e763]:
+        - heading "Settings & Data Management" [level=1] [ref=e764]
+        - paragraph [ref=e765]: Configure your capability profile, inspect backend services, and export graph data.
+      - generic [ref=e766]:
+        - generic [ref=e767]:
+          - heading "Profile Configuration" [level=2] [ref=e768]
+          - generic [ref=e769]:
+            - generic [ref=e770]:
+              - generic [ref=e771]: Display Name
+              - textbox [ref=e772]: Indraj Gupta
+            - generic [ref=e773]:
+              - generic [ref=e774]: Professional Headline
+              - textbox [ref=e775]: AI/ML Developer & Full-Stack Engineer
+            - generic [ref=e776]:
+              - generic [ref=e777]: Short Bio
+              - textbox [ref=e778]: Building software with AI, automation and modern web technologies.
+            - button "Save Changes" [ref=e780] [cursor=pointer]
+        - generic [ref=e781]:
+          - heading "Backend Infrastructure" [level=2] [ref=e782]
+          - generic [ref=e783]:
+            - generic [ref=e789]:
+              - generic [ref=e790]: Supabase Auth & Database
+              - generic [ref=e791]: Running in high-fidelity local demo mode (env fallback enabled)
+            - generic [ref=e792]: Demo Mode
+        - generic [ref=e795]:
+          - heading "Data Export & Portability" [level=2] [ref=e796]
+          - paragraph [ref=e797]: Download your raw capability graph for Neo4j, GraphRAG, or external backups.
+          - button "Export Graph JSON" [ref=e799] [cursor=pointer]
+  - generic [ref=e803]:
+    - generic [ref=e804]:
+      - generic [ref=e805]: "3"
+      - generic [ref=e806]: Projects
+    - generic [ref=e808]:
+      - generic [ref=e809]: "6"
+      - generic [ref=e810]: Skills
+    - generic [ref=e812]:
+      - generic [ref=e813]: "8"
+      - generic [ref=e814]: Technologies
+    - generic [ref=e816]:
+      - generic [ref=e817]: "5"
+      - generic [ref=e818]: Capabilities
+    - generic [ref=e820]:
+      - generic [ref=e821]: "41"
+      - generic [ref=e822]: Connections
+    - generic [ref=e824]:
+      - generic [ref=e825]: "3"
+      - generic [ref=e826]: Evidence

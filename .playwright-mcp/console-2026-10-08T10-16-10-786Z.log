@@ -1,0 +1,19 @@
+[     413ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=7f3d2386:15804
+[    1585ms] [WARNING] React Flow: It seems like you are hiding the attribution. Please only do this when you are subscribed to React Flow Pro: https://reactflow.dev/remove-attr
+%cYou can ignore this warning if you are subscribed. font-style: italic; @ http://localhost:5173/@vite/client:356
+[  107061ms] TypeError: isSupabaseConfigured is not a function
+    at SettingsView (http://localhost:5173/src/components/dashboard/SettingsView.tsx?t=1791452364214:337:19)
+    at Object.react_stack_bottom_frame (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=7f3d2386:14142:12)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=7f3d2386:4400:19)
+    at updateFunctionComponent (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=7f3d2386:5775:16)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=7f3d2386:6391:20)
+    at runWithFiberInDEV (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=7f3d2386:944:66)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=7f3d2386:9148:92)
+    at workLoopSync (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=7f3d2386:9044:37)
+    at renderRootSync (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=7f3d2386:9028:6)
+    at performWorkOnRoot (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=7f3d2386:8715:27)
+[  107063ms] [WARNING] %s
+
+%s
+ An error occurred in the <SettingsView> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://localhost:5173/@vite/client:356

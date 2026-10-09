@@ -1,0 +1,37 @@
+- generic [ref=f8e3]:
+  - navigation [ref=f8e4]:
+    - generic [ref=f8e5]: CapabilityGraph
+    - generic [ref=f8e10]:
+      - button "Sign in" [ref=f8e11] [cursor=pointer]
+      - button "Get started" [ref=f8e12] [cursor=pointer]
+  - generic [ref=f8e13]:
+    - generic [ref=f8e14]: AI-powered professional identity
+    - heading "Your professional identity, connected." [level=1] [ref=f8e17]
+    - paragraph [ref=f8e18]: Turn your skills, projects, experience and evidence into an interactive capability graph. The relationships are the product.
+    - generic [ref=f8e19]:
+      - button "Build my capability graph" [ref=f8e20] [cursor=pointer]
+      - button "Explore demo graph" [ref=f8e23] [cursor=pointer]
+    - img [ref=f8e26]:
+      - generic [ref=f8e32]: Indraj
+      - generic [ref=f8e33]: PERSON
+      - generic [ref=f8e35]: FarmSeva
+      - generic [ref=f8e36]: PROJECT
+      - generic [ref=f8e38]: React
+      - generic [ref=f8e39]: TECHNOLOGY
+      - generic [ref=f8e41]: AI Integration
+      - generic [ref=f8e42]: CAPABILITY
+      - generic [ref=f8e44]: Supabase
+      - generic [ref=f8e45]: TECHNOLOGY
+      - generic [ref=f8e47]: Full-Stack Dev
+      - generic [ref=f8e49]: Python
+      - generic [ref=f8e51]: Vercel
+  - generic [ref=f8e53]:
+    - generic [ref=f8e54]:
+      - heading "Graph-first identity" [level=3] [ref=f8e60]
+      - paragraph [ref=f8e61]: Your skills, projects, and technologies are nodes. The connections between them are the real story.
+    - generic [ref=f8e62]:
+      - heading "AI extraction" [level=3] [ref=f8e66]
+      - paragraph [ref=f8e67]: Describe a project in plain text. AI extracts structured entities and relationships automatically.
+    - generic [ref=f8e68]:
+      - heading "Evidence over claims" [level=3] [ref=f8e72]
+      - paragraph [ref=f8e73]: Skills are marked Claimed, Used, Demonstrated, or Verified — never fake percentages.

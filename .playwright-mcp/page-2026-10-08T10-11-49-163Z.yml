@@ -1,0 +1,302 @@
+- generic [ref=f7e3]:
+  - banner [ref=f7e4]:
+    - generic [ref=f7e5]:
+      - button "Back to Dashboard" [ref=f7e6] [cursor=pointer]
+      - generic [ref=f7e9]: "|"
+      - generic [ref=f7e10]: CapabilityGraph
+    - button "Share Profile" [ref=f7e16] [cursor=pointer]
+  - generic [ref=f7e23]:
+    - complementary [ref=f7e24]:
+      - generic [ref=f7e25]: I
+      - heading "Indraj Gupta" [level=1] [ref=f7e26]
+      - generic [ref=f7e27]: AI/ML Developer & Full-Stack Engineer
+      - paragraph [ref=f7e28]: Building software with AI, automation and modern web technologies. Transforming unstructured capability into connected graph systems.
+      - generic [ref=f7e29]:
+        - link "GitHub" [ref=f7e30] [cursor=pointer]:
+          - /url: https://github.com/indraj
+        - link "LinkedIn" [ref=f7e34] [cursor=pointer]:
+          - /url: https://linkedin.com
+      - generic [ref=f7e39]:
+        - generic [ref=f7e40]:
+          - generic [ref=f7e41]: "Projects:"
+          - strong [ref=f7e42]: 3 Verified
+        - generic [ref=f7e43]:
+          - generic [ref=f7e44]: "Capabilities:"
+          - strong [ref=f7e45]: 5 Demonstrated
+        - generic [ref=f7e46]:
+          - generic [ref=f7e47]: "Evidence Proofs:"
+          - strong [ref=f7e48]: 3 Artifacts
+        - generic [ref=f7e49]:
+          - generic [ref=f7e50]: "Graph Nodes:"
+          - strong [ref=f7e51]: 26 Entities
+      - generic [ref=f7e52]: Core Verified Projects
+      - generic [ref=f7e53]:
+        - generic [ref=f7e54]:
+          - generic [ref=f7e55]: FarmSeva
+          - generic [ref=f7e56]: Active
+        - generic [ref=f7e57]:
+          - generic [ref=f7e58]: CapabilityGraph
+          - generic [ref=f7e59]: Active
+        - generic [ref=f7e60]:
+          - generic [ref=f7e61]: Unplug
+          - generic [ref=f7e62]: Active
+    - main [ref=f7e63]:
+      - generic [ref=f7e64]: Interactive Capability Graph · Click any node to inspect evidence
+      - application [ref=f7e66]:
+        - generic [ref=f7e68]:
+          - generic:
+            - generic:
+              - img:
+                - group "Edge from person_indraj to project_farmseva" [ref=f7e69] [cursor=pointer]:
+                  - generic [ref=f7e72]: BUILT
+              - img:
+                - group "Edge from person_indraj to project_unplug" [ref=f7e74] [cursor=pointer]:
+                  - generic [ref=f7e77]: BUILT
+              - img:
+                - group "Edge from person_indraj to project_capgraph" [ref=f7e79] [cursor=pointer]:
+                  - generic [ref=f7e82]: BUILT
+              - img:
+                - group "Edge from person_indraj to skill_python" [ref=f7e84] [cursor=pointer]:
+                  - generic [ref=f7e87]: HAS SKILL
+              - img:
+                - group "Edge from person_indraj to skill_react" [ref=f7e89] [cursor=pointer]:
+                  - generic [ref=f7e92]: HAS SKILL
+              - img:
+                - group "Edge from person_indraj to skill_aiml" [ref=f7e94] [cursor=pointer]:
+                  - generic [ref=f7e97]: HAS SKILL
+              - img:
+                - group "Edge from person_indraj to skill_ds" [ref=f7e99] [cursor=pointer]:
+                  - generic [ref=f7e102]: HAS SKILL
+              - img:
+                - group "Edge from person_indraj to skill_problem" [ref=f7e104] [cursor=pointer]:
+                  - generic [ref=f7e107]: HAS SKILL
+              - img:
+                - group "Edge from person_indraj to skill_system" [ref=f7e109] [cursor=pointer]:
+                  - generic [ref=f7e112]: HAS SKILL
+              - img:
+                - group "Edge from person_indraj to exp_lead" [ref=f7e114] [cursor=pointer]:
+                  - generic [ref=f7e117]: HAS EXPERIENCE
+              - img:
+                - group "Edge from person_indraj to exp_intern" [ref=f7e119] [cursor=pointer]:
+                  - generic [ref=f7e122]: HAS EXPERIENCE
+              - img:
+                - group "Edge from person_indraj to edu_cs" [ref=f7e124] [cursor=pointer]:
+                  - generic [ref=f7e127]: HAS EDUCATION
+              - img:
+                - group "Edge from person_indraj to cert_deeplearning" [ref=f7e129] [cursor=pointer]:
+                  - generic [ref=f7e132]: HAS CERTIFICATION
+              - img:
+                - group "Edge from exp_lead to project_farmseva" [ref=f7e134] [cursor=pointer]:
+                  - generic [ref=f7e137]: WORKED ON
+              - img:
+                - group "Edge from project_farmseva to tech_react" [ref=f7e139] [cursor=pointer]:
+                  - generic [ref=f7e142]: USES TECHNOLOGY
+              - img:
+                - group "Edge from project_farmseva to tech_vite" [ref=f7e144] [cursor=pointer]:
+                  - generic [ref=f7e147]: USES TECHNOLOGY
+              - img:
+                - group "Edge from project_farmseva to tech_supabase" [ref=f7e149] [cursor=pointer]:
+                  - generic [ref=f7e152]: USES TECHNOLOGY
+              - img:
+                - group "Edge from project_farmseva to tech_lyzr" [ref=f7e154] [cursor=pointer]:
+                  - generic [ref=f7e157]: USES TECHNOLOGY
+              - img:
+                - group "Edge from project_farmseva to tech_vercel" [ref=f7e159] [cursor=pointer]:
+                  - generic [ref=f7e162]: USES TECHNOLOGY
+              - img:
+                - group "Edge from project_unplug to tech_react" [ref=f7e164] [cursor=pointer]:
+                  - generic [ref=f7e167]: USES TECHNOLOGY
+              - img:
+                - group "Edge from project_unplug to tech_typescript" [ref=f7e169] [cursor=pointer]:
+                  - generic [ref=f7e172]: USES TECHNOLOGY
+              - img:
+                - group "Edge from project_unplug to tech_supabase" [ref=f7e174] [cursor=pointer]:
+                  - generic [ref=f7e177]: USES TECHNOLOGY
+              - img:
+                - group "Edge from project_capgraph to tech_react" [ref=f7e179] [cursor=pointer]:
+                  - generic [ref=f7e182]: USES TECHNOLOGY
+              - img:
+                - group "Edge from project_capgraph to tech_supabase" [ref=f7e184] [cursor=pointer]:
+                  - generic [ref=f7e187]: USES TECHNOLOGY
+              - img:
+                - group "Edge from project_capgraph to tech_lyzr" [ref=f7e189] [cursor=pointer]:
+                  - generic [ref=f7e192]: USES TECHNOLOGY
+              - img:
+                - group "Edge from project_capgraph to tech_claude" [ref=f7e194] [cursor=pointer]:
+                  - generic [ref=f7e197]: USES TECHNOLOGY
+              - img:
+                - group "Edge from project_capgraph to tech_vercel" [ref=f7e199] [cursor=pointer]:
+                  - generic [ref=f7e202]: USES TECHNOLOGY
+              - img:
+                - group "Edge from project_capgraph to tech_tailwind" [ref=f7e204] [cursor=pointer]:
+                  - generic [ref=f7e207]: USES TECHNOLOGY
+              - img:
+                - group "Edge from project_farmseva to cap_frontend" [ref=f7e209] [cursor=pointer]:
+                  - generic [ref=f7e212]: DEMONSTRATES
+              - img:
+                - group "Edge from project_farmseva to cap_fullstack" [ref=f7e214] [cursor=pointer]:
+                  - generic [ref=f7e217]: DEMONSTRATES
+              - img:
+                - group "Edge from project_farmseva to cap_ai" [ref=f7e219] [cursor=pointer]:
+                  - generic [ref=f7e222]: DEMONSTRATES
+              - img:
+                - group "Edge from project_farmseva to cap_db" [ref=f7e224] [cursor=pointer]:
+                  - generic [ref=f7e227]: DEMONSTRATES
+              - img:
+                - group "Edge from project_unplug to cap_frontend" [ref=f7e229] [cursor=pointer]:
+                  - generic [ref=f7e232]: DEMONSTRATES
+              - img:
+                - group "Edge from project_unplug to cap_fullstack" [ref=f7e234] [cursor=pointer]:
+                  - generic [ref=f7e237]: DEMONSTRATES
+              - img:
+                - group "Edge from project_capgraph to cap_ai" [ref=f7e239] [cursor=pointer]:
+                  - generic [ref=f7e242]: DEMONSTRATES
+              - img:
+                - group "Edge from project_capgraph to cap_fullstack" [ref=f7e244] [cursor=pointer]:
+                  - generic [ref=f7e247]: DEMONSTRATES
+              - img:
+                - group "Edge from project_capgraph to cap_auto" [ref=f7e249] [cursor=pointer]:
+                  - generic [ref=f7e252]: DEMONSTRATES
+              - img:
+                - group "Edge from project_farmseva to ev_github" [ref=f7e254] [cursor=pointer]:
+                  - generic [ref=f7e257]: SUPPORTED BY
+              - img:
+                - group "Edge from project_farmseva to ev_demo" [ref=f7e259] [cursor=pointer]:
+                  - generic [ref=f7e262]: SUPPORTED BY
+              - img:
+                - group "Edge from cap_ai to ev_github" [ref=f7e264] [cursor=pointer]:
+                  - generic [ref=f7e267]: SUPPORTED BY
+              - img:
+                - group "Edge from cert_deeplearning to ev_cert_badge" [ref=f7e269] [cursor=pointer]:
+                  - generic [ref=f7e272]: SUPPORTED BY
+            - generic:
+              - group [ref=f7e274]:
+                - generic [ref=f7e275] [cursor=pointer]:
+                  - generic [ref=f7e280]: I
+                  - generic [ref=f7e281]: Indraj Gupta
+                  - generic [ref=f7e282]: PERSON
+              - group [ref=f7e283]:
+                - generic [ref=f7e284] [cursor=pointer]:
+                  - generic [ref=f7e289]: FarmSeva
+                  - generic [ref=f7e292]: Project
+              - group [ref=f7e293]:
+                - generic [ref=f7e294] [cursor=pointer]:
+                  - generic [ref=f7e299]: Unplug
+                  - generic [ref=f7e302]: Project
+              - group [ref=f7e303]:
+                - generic [ref=f7e304] [cursor=pointer]:
+                  - generic [ref=f7e309]: CapabilityGraph
+                  - generic [ref=f7e312]: Project
+              - group [ref=f7e313]:
+                - generic [ref=f7e314] [cursor=pointer]:
+                  - generic [ref=f7e319]: React
+                  - generic [ref=f7e322]: Technology
+              - group [ref=f7e323]:
+                - generic [ref=f7e324] [cursor=pointer]:
+                  - generic [ref=f7e329]: Vite
+                  - generic [ref=f7e332]: Technology
+              - group [ref=f7e333]:
+                - generic [ref=f7e334] [cursor=pointer]:
+                  - generic [ref=f7e339]: Supabase
+                  - generic [ref=f7e342]: Technology
+              - group [ref=f7e343]:
+                - generic [ref=f7e344] [cursor=pointer]:
+                  - generic [ref=f7e349]: Lyzr
+                  - generic [ref=f7e352]: Technology
+              - group [ref=f7e353]:
+                - generic [ref=f7e354] [cursor=pointer]:
+                  - generic [ref=f7e359]: Claude
+                  - generic [ref=f7e362]: Technology
+              - group [ref=f7e363]:
+                - generic [ref=f7e364] [cursor=pointer]:
+                  - generic [ref=f7e369]: Vercel
+                  - generic [ref=f7e372]: Technology
+              - group [ref=f7e373]:
+                - generic [ref=f7e374] [cursor=pointer]:
+                  - generic [ref=f7e379]: TypeScript
+                  - generic [ref=f7e382]: Technology
+              - group [ref=f7e383]:
+                - generic [ref=f7e384] [cursor=pointer]:
+                  - generic [ref=f7e389]: Tailwind
+                  - generic [ref=f7e392]: Technology
+              - group [ref=f7e393]:
+                - generic [ref=f7e394] [cursor=pointer]:
+                  - generic [ref=f7e399]: Python
+                  - generic [ref=f7e402]: Skill
+              - group [ref=f7e403]:
+                - generic [ref=f7e404] [cursor=pointer]:
+                  - generic [ref=f7e409]: React
+                  - generic [ref=f7e412]: Skill
+              - group [ref=f7e413]:
+                - generic [ref=f7e414] [cursor=pointer]:
+                  - generic [ref=f7e419]: AI/ML
+                  - generic [ref=f7e422]: Skill
+              - group [ref=f7e423]:
+                - generic [ref=f7e424] [cursor=pointer]:
+                  - generic [ref=f7e429]: Data Structures
+                  - generic [ref=f7e432]: Skill
+              - group [ref=f7e433]:
+                - generic [ref=f7e434] [cursor=pointer]:
+                  - generic [ref=f7e439]: Problem Solving
+                  - generic [ref=f7e442]: Skill
+              - group [ref=f7e443]:
+                - generic [ref=f7e444] [cursor=pointer]:
+                  - generic [ref=f7e449]: System Design
+                  - generic [ref=f7e452]: Skill
+              - group [ref=f7e453]:
+                - generic [ref=f7e454] [cursor=pointer]:
+                  - generic [ref=f7e459]: Frontend Development
+                  - generic [ref=f7e462]: Capability
+              - group [ref=f7e463]:
+                - generic [ref=f7e464] [cursor=pointer]:
+                  - generic [ref=f7e469]: Full-Stack Development
+                  - generic [ref=f7e472]: Capability
+              - group [ref=f7e473]:
+                - generic [ref=f7e474] [cursor=pointer]:
+                  - generic [ref=f7e479]: AI Integration
+                  - generic [ref=f7e482]: Capability
+              - group [ref=f7e483]:
+                - generic [ref=f7e484] [cursor=pointer]:
+                  - generic [ref=f7e489]: Automation
+                  - generic [ref=f7e492]: Capability
+              - group [ref=f7e493]:
+                - generic [ref=f7e494] [cursor=pointer]:
+                  - generic [ref=f7e499]: Database Integration
+                  - generic [ref=f7e502]: Capability
+              - group [ref=f7e503]:
+                - generic [ref=f7e504] [cursor=pointer]:
+                  - generic [ref=f7e509]: AI Full-Stack Lead
+                  - generic [ref=f7e512]: Experience
+              - group [ref=f7e513]:
+                - generic [ref=f7e514] [cursor=pointer]:
+                  - generic [ref=f7e519]: Frontend Engineer
+                  - generic [ref=f7e522]: Experience
+              - group [ref=f7e523]:
+                - generic [ref=f7e524] [cursor=pointer]:
+                  - generic [ref=f7e529]: B.Tech in Computer Science
+                  - generic [ref=f7e532]: Education
+              - group [ref=f7e533]:
+                - generic [ref=f7e534] [cursor=pointer]:
+                  - generic [ref=f7e539]: Deep Learning Specialization
+                  - generic [ref=f7e542]: Certification
+              - group [ref=f7e543]:
+                - generic [ref=f7e544] [cursor=pointer]:
+                  - generic [ref=f7e549]: GitHub Repository
+                  - generic [ref=f7e552]: Evidence
+              - group [ref=f7e553]:
+                - generic [ref=f7e554] [cursor=pointer]:
+                  - generic [ref=f7e559]: Live Demo
+                  - generic [ref=f7e562]: Evidence
+              - group [ref=f7e563]:
+                - generic [ref=f7e564] [cursor=pointer]:
+                  - generic [ref=f7e569]: Verified Certificate Credential
+                  - generic [ref=f7e572]: Evidence
+        - generic [ref=f7e573]:
+          - button "Zoom in" [ref=f7e574] [cursor=pointer]
+          - button "Zoom out" [ref=f7e578] [cursor=pointer]
+          - button "Fit graph" [ref=f7e583] [cursor=pointer]
+          - button "Reset view" [ref=f7e589] [cursor=pointer]
+        - generic [ref=f7e593]:
+          - button "Filter" [ref=f7e594] [cursor=pointer]
+          - button "Layout" [ref=f7e597] [cursor=pointer]
+          - button "Legend" [ref=f7e603] [cursor=pointer]

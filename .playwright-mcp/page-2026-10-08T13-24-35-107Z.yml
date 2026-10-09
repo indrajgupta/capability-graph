@@ -1,0 +1,151 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - textbox "Search skills, projects, technologies..." [ref=e10]
+    - generic [ref=e11]:
+      - button "AI Analysis" [ref=e12] [cursor=pointer]
+      - button [ref=e16] [cursor=pointer]
+      - button "I" [ref=e21] [cursor=pointer]
+  - generic [ref=e25]:
+    - complementary [ref=e26]:
+      - generic [ref=e27]: CapabilityGraph
+      - generic [ref=e32]:
+        - generic [ref=e33]:
+          - generic [ref=e34]: OVERVIEW
+          - button [ref=e35] [cursor=pointer]
+          - button [ref=e43] [cursor=pointer]
+        - generic [ref=e49]:
+          - generic [ref=e50]: BUILD
+          - button [ref=e51] [cursor=pointer]
+          - button [active] [ref=e54] [cursor=pointer]
+          - button [ref=e59] [cursor=pointer]
+        - generic [ref=e63]:
+          - generic [ref=e64]: PROFILE
+          - button [ref=e65] [cursor=pointer]
+          - button [ref=e70] [cursor=pointer]
+          - button [ref=e75] [cursor=pointer]
+        - generic [ref=e80]:
+          - generic [ref=e81]: SYSTEM
+          - button [ref=e82] [cursor=pointer]
+      - generic [ref=e88] [cursor=pointer]:
+        - generic [ref=e89]: I
+        - generic [ref=e90]:
+          - generic [ref=e91]: Indraj Gupta
+          - generic [ref=e92]: AI/ML Developer
+    - generic [ref=e989]:
+      - generic [ref=e990]:
+        - generic [ref=e991]:
+          - heading "Projects" [level=1] [ref=e992]
+          - paragraph [ref=e993]: First-class graph objects connecting code, technologies, and demonstrated capabilities.
+        - button "Add Project" [ref=e994] [cursor=pointer]
+      - generic [ref=e996]:
+        - generic [ref=e997]:
+          - generic [ref=e998]:
+            - generic [ref=e999]:
+              - heading "FarmSeva" [level=3] [ref=e1000]
+              - generic [ref=e1001]: Demonstrated in Production
+            - generic [ref=e1002]:
+              - link "GitHub Repository" [ref=e1003] [cursor=pointer]:
+                - /url: https://github.com/indraj/farmseva
+              - link "Live Deployment" [ref=e1007] [cursor=pointer]:
+                - /url: https://farmseva.app
+          - paragraph [ref=e1011]: Agricultural machine rental platform connecting farmers to equipment. Built full-stack using React, Supabase, and integrated an AI assistant using Lyzr.
+          - generic [ref=e1012]:
+            - generic [ref=e1013]: Technologies
+            - generic [ref=e1014]:
+              - generic [ref=e1015]: React
+              - generic [ref=e1016]: Vite
+              - generic [ref=e1017]: Supabase
+              - generic [ref=e1018]: Lyzr
+              - generic [ref=e1019]: Vercel
+          - generic [ref=e1020]:
+            - generic [ref=e1021]:
+              - strong [ref=e1022]: "4"
+              - text: Capabilities
+            - generic [ref=e1023]: •
+            - generic [ref=e1024]:
+              - strong [ref=e1025]: "2"
+              - text: Evidence Sources
+            - generic [ref=e1026]: •
+            - generic [ref=e1027]:
+              - strong [ref=e1028]: "11"
+              - text: Connections
+          - button "Explore in Graph" [ref=e1029] [cursor=pointer]
+        - generic [ref=e1032]:
+          - generic [ref=e1033]:
+            - generic [ref=e1034]:
+              - heading "Unplug" [level=3] [ref=e1035]
+              - generic [ref=e1036]: Demonstrated in Production
+            - link "GitHub Repository" [ref=e1038] [cursor=pointer]:
+              - /url: https://github.com/indraj/unplug
+          - paragraph [ref=e1042]: Digital wellness app helping users manage screen time and build healthier tech habits with smart analytics.
+          - generic [ref=e1043]:
+            - generic [ref=e1044]: Technologies
+            - generic [ref=e1045]:
+              - generic [ref=e1046]: React
+              - generic [ref=e1047]: TypeScript
+              - generic [ref=e1048]: Supabase
+          - generic [ref=e1049]:
+            - generic [ref=e1050]:
+              - strong [ref=e1051]: "2"
+              - text: Capabilities
+            - generic [ref=e1052]: •
+            - generic [ref=e1053]:
+              - strong [ref=e1054]: "0"
+              - text: Evidence Sources
+            - generic [ref=e1055]: •
+            - generic [ref=e1056]:
+              - strong [ref=e1057]: "5"
+              - text: Connections
+          - button "Explore in Graph" [ref=e1058] [cursor=pointer]
+        - generic [ref=e1061]:
+          - generic [ref=e1062]:
+            - generic [ref=e1063]:
+              - heading "CapabilityGraph" [level=3] [ref=e1064]
+              - generic [ref=e1065]: Demonstrated in Production
+            - generic [ref=e1066]:
+              - link "GitHub Repository" [ref=e1067] [cursor=pointer]:
+                - /url: https://github.com/indraj/capabilitygraph
+              - link "Live Deployment" [ref=e1071] [cursor=pointer]:
+                - /url: https://capabilitygraph.app
+          - paragraph [ref=e1075]: AI-powered professional identity platform that transforms skills, projects, and evidence into an interactive capability graph.
+          - generic [ref=e1076]:
+            - generic [ref=e1077]: Technologies
+            - generic [ref=e1078]:
+              - generic [ref=e1079]: React
+              - generic [ref=e1080]: Supabase
+              - generic [ref=e1081]: Lyzr
+              - generic [ref=e1082]: Claude
+              - generic [ref=e1083]: Vercel
+              - generic [ref=e1084]: Tailwind
+          - generic [ref=e1085]:
+            - generic [ref=e1086]:
+              - strong [ref=e1087]: "3"
+              - text: Capabilities
+            - generic [ref=e1088]: •
+            - generic [ref=e1089]:
+              - strong [ref=e1090]: "0"
+              - text: Evidence Sources
+            - generic [ref=e1091]: •
+            - generic [ref=e1092]:
+              - strong [ref=e1093]: "9"
+              - text: Connections
+          - button "Explore in Graph" [ref=e1094] [cursor=pointer]
+  - generic [ref=e645]:
+    - generic [ref=e646]:
+      - generic [ref=e647]: "3"
+      - generic [ref=e648]: Projects
+    - generic [ref=e650]:
+      - generic [ref=e651]: "6"
+      - generic [ref=e652]: Skills
+    - generic [ref=e654]:
+      - generic [ref=e655]: "8"
+      - generic [ref=e656]: Technologies
+    - generic [ref=e658]:
+      - generic [ref=e659]: "5"
+      - generic [ref=e660]: Capabilities
+    - generic [ref=e662]:
+      - generic [ref=e663]: "41"
+      - generic [ref=e664]: Connections
+    - generic [ref=e666]:
+      - generic [ref=e667]: "3"
+      - generic [ref=e668]: Evidence

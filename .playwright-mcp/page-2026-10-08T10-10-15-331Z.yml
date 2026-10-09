@@ -1,0 +1,123 @@
+- generic [ref=f6e3]:
+  - banner [ref=f6e4]:
+    - textbox "Search skills, projects, technologies..." [ref=f6e10]
+    - generic [ref=f6e11]:
+      - button "AI Analysis" [ref=f6e12] [cursor=pointer]
+      - button [ref=f6e16] [cursor=pointer]
+      - button "I" [ref=f6e21] [cursor=pointer]
+  - generic [ref=f6e25]:
+    - complementary [ref=f6e26]:
+      - generic [ref=f6e27]: CapabilityGraph
+      - generic [ref=f6e32]:
+        - generic [ref=f6e33]:
+          - generic [ref=f6e34]: OVERVIEW
+          - button [ref=f6e35] [cursor=pointer]
+          - button [ref=f6e43] [cursor=pointer]
+        - generic [ref=f6e49]:
+          - generic [ref=f6e50]: BUILD
+          - button [ref=f6e51] [cursor=pointer]
+          - button [ref=f6e54] [cursor=pointer]
+          - button [active] [ref=f6e59] [cursor=pointer]
+        - generic [ref=f6e63]:
+          - generic [ref=f6e64]: PROFILE
+          - button [ref=f6e65] [cursor=pointer]
+          - button [ref=f6e70] [cursor=pointer]
+          - button [ref=f6e75] [cursor=pointer]
+        - generic [ref=f6e80]:
+          - generic [ref=f6e81]: SYSTEM
+          - button [ref=f6e82] [cursor=pointer]
+      - generic [ref=f6e88] [cursor=pointer]:
+        - generic [ref=f6e89]: I
+        - generic [ref=f6e90]:
+          - generic [ref=f6e91]: Indraj Gupta
+          - generic [ref=f6e92]: AI/ML Developer
+    - generic [ref=f6e885]:
+      - generic [ref=f6e886]:
+        - generic [ref=f6e887]:
+          - heading "Skills & Evidence Model" [level=1] [ref=f6e888]
+          - paragraph [ref=f6e889]: Classified by genuine evidence proof — no arbitrary competence percentages.
+        - generic [ref=f6e890]:
+          - button "all" [ref=f6e891] [cursor=pointer]
+          - button "demonstrated" [ref=f6e892] [cursor=pointer]
+          - button "used" [ref=f6e893] [cursor=pointer]
+          - button "claimed" [ref=f6e894] [cursor=pointer]
+      - generic [ref=f6e895]:
+        - generic [ref=f6e896]:
+          - heading "Demonstrated (4)" [level=2] [ref=f6e898]
+          - generic [ref=f6e899]: — Code repositories, live demos, and artifacts support these claims
+        - generic [ref=f6e900]:
+          - generic [ref=f6e901]:
+            - generic [ref=f6e902]:
+              - generic [ref=f6e903]: Python
+              - button "Graph" [ref=f6e908] [cursor=pointer]
+            - paragraph [ref=f6e911]: Core programming language for backend AI workflows and data processing.
+            - generic [ref=f6e912]:
+              - generic [ref=f6e913]: Backed by verified projects
+              - generic [ref=f6e914]: demonstrated
+          - generic [ref=f6e915]:
+            - generic [ref=f6e916]:
+              - generic [ref=f6e917]: React
+              - button "Graph" [ref=f6e922] [cursor=pointer]
+            - paragraph [ref=f6e925]: Modern reactive frontend development with state management.
+            - generic [ref=f6e926]:
+              - generic [ref=f6e927]: Backed by verified projects
+              - generic [ref=f6e928]: demonstrated
+          - generic [ref=f6e929]:
+            - generic [ref=f6e930]:
+              - generic [ref=f6e931]: AI/ML
+              - button "Graph" [ref=f6e936] [cursor=pointer]
+            - paragraph [ref=f6e939]: Prompt engineering, RAG, agentic workflows, and LLM orchestration.
+            - generic [ref=f6e940]:
+              - generic [ref=f6e941]: Backed by verified projects
+              - generic [ref=f6e942]: demonstrated
+          - generic [ref=f6e943]:
+            - generic [ref=f6e944]:
+              - generic [ref=f6e945]: Problem Solving
+              - button "Graph" [ref=f6e950] [cursor=pointer]
+            - paragraph [ref=f6e953]: End-to-end architecture design and production debugging.
+            - generic [ref=f6e954]:
+              - generic [ref=f6e955]: Backed by verified projects
+              - generic [ref=f6e956]: demonstrated
+      - generic [ref=f6e957]:
+        - generic [ref=f6e958]:
+          - heading "Used (1)" [level=2] [ref=f6e960]
+          - generic [ref=f6e961]: — Applied in real engineering tasks and workflows
+        - generic [ref=f6e963]:
+          - generic [ref=f6e964]:
+            - generic [ref=f6e965]: Data Structures
+            - button "Graph" [ref=f6e970] [cursor=pointer]
+          - paragraph [ref=f6e973]: Graph algorithms, hash indexing, and efficient traversal.
+          - generic [ref=f6e974]:
+            - generic [ref=f6e975]: Used in workflows
+            - generic [ref=f6e976]: used
+      - generic [ref=f6e977]:
+        - generic [ref=f6e978]:
+          - heading "Claimed (1)" [level=2] [ref=f6e980]
+          - generic [ref=f6e981]: — User knowledge awaiting project or credential linkage
+        - generic [ref=f6e983]:
+          - generic [ref=f6e984]:
+            - generic [ref=f6e985]: System Design
+            - button "Graph" [ref=f6e990] [cursor=pointer]
+          - paragraph [ref=f6e993]: Distributed services and caching patterns (awaiting large-scale project link).
+          - generic [ref=f6e994]:
+            - generic [ref=f6e995]: Self-declared knowledge
+            - generic [ref=f6e996]: claimed
+  - generic [ref=f6e645]:
+    - generic [ref=f6e646]:
+      - generic [ref=f6e647]: "3"
+      - generic [ref=f6e648]: Projects
+    - generic [ref=f6e650]:
+      - generic [ref=f6e651]: "6"
+      - generic [ref=f6e652]: Skills
+    - generic [ref=f6e654]:
+      - generic [ref=f6e655]: "8"
+      - generic [ref=f6e656]: Technologies
+    - generic [ref=f6e658]:
+      - generic [ref=f6e659]: "5"
+      - generic [ref=f6e660]: Capabilities
+    - generic [ref=f6e662]:
+      - generic [ref=f6e663]: "41"
+      - generic [ref=f6e664]: Connections
+    - generic [ref=f6e666]:
+      - generic [ref=f6e667]: "3"
+      - generic [ref=f6e668]: Evidence

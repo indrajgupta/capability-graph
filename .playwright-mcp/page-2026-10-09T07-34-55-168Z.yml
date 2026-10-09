@@ -1,0 +1,195 @@
+- generic [ref=f4e11]:
+  - banner [ref=f4e12]:
+    - generic [ref=f4e13]:
+      - button "Graph My Professional Profile 1" [active] [ref=f4e14] [cursor=pointer]:
+        - generic [ref=f4e20]:
+          - generic [ref=f4e21]: Graph
+          - generic [ref=f4e22]: My Professional Profile
+        - generic [ref=f4e23]: "1"
+      - generic [ref=f4e26]:
+        - generic [ref=f4e27]:
+          - generic [ref=f4e28]:
+            - generic [ref=f4e29]: My Graphs
+            - generic [ref=f4e30]: Select, rename, or create independent graphs
+          - button "New Graph" [ref=f4e31] [cursor=pointer]
+        - generic [ref=f4e34] [cursor=pointer]:
+          - generic [ref=f4e37]:
+            - generic [ref=f4e38]: My Professional Profile
+            - generic [ref=f4e39]: 30 nodes · 51 edges
+          - button "Rename Graph" [ref=f4e41]
+        - generic [ref=f4e44]:
+          - button "Create New Graph" [ref=f4e45] [cursor=pointer]
+          - button "Add Information" [ref=f4e47] [cursor=pointer]
+    - textbox "Search skills, projects, technologies..." [ref=f4e57]
+    - generic [ref=f4e58]:
+      - button "Create New Graph" [ref=f4e59] [cursor=pointer]
+      - button "Add Information" [ref=f4e61] [cursor=pointer]
+      - button "AI Analysis" [ref=f4e66] [cursor=pointer]
+      - button [ref=f4e70] [cursor=pointer]
+      - button "I" [ref=f4e76] [cursor=pointer]
+  - generic [ref=f4e80]:
+    - complementary [ref=f4e81]:
+      - generic [ref=f4e82]: CapabilityGraph
+      - generic [ref=f4e87]:
+        - generic [ref=f4e88]:
+          - generic [ref=f4e89]: OVERVIEW
+          - button [ref=f4e90] [cursor=pointer]
+          - button [ref=f4e98] [cursor=pointer]
+        - generic [ref=f4e104]:
+          - generic [ref=f4e105]: BUILD
+          - button [ref=f4e106] [cursor=pointer]
+          - button [ref=f4e110] [cursor=pointer]
+          - button [ref=f4e113] [cursor=pointer]
+          - button [ref=f4e118] [cursor=pointer]
+        - generic [ref=f4e122]:
+          - generic [ref=f4e123]: PROFILE
+          - button [ref=f4e124] [cursor=pointer]
+          - button [ref=f4e129] [cursor=pointer]
+          - button [ref=f4e134] [cursor=pointer]
+        - generic [ref=f4e139]:
+          - generic [ref=f4e140]: SYSTEM
+          - button [ref=f4e141] [cursor=pointer]
+      - generic [ref=f4e147] [cursor=pointer]:
+        - generic [ref=f4e148]: I
+        - generic [ref=f4e149]:
+          - generic [ref=f4e150]: Indraj Gupta
+          - generic [ref=f4e151]: Building connected capability graphs
+    - generic [ref=f4e156]:
+      - generic [ref=f4e157]:
+        - generic [ref=f4e159]: My Professional Profile
+        - generic [ref=f4e160]: ·
+        - generic [ref=f4e161]: 30 nodes · 51 edges
+      - generic [ref=f4e162]:
+        - generic [ref=f4e163]:
+          - generic [ref=f4e164]: Core Capabilities View
+          - generic [ref=f4e170]: Showing primary capabilities · Click any node to expand supporting evidence
+          - button "Show All (30)" [ref=f4e171] [cursor=pointer]
+        - application [ref=f4e177]:
+          - generic [ref=f4e179]:
+            - generic:
+              - generic:
+                - img:
+                  - group "Edge from person_indraj to cap_frontend" [ref=f4e180] [cursor=pointer]:
+                    - generic [ref=f4e183]: HAS CAPABILITY
+                - img:
+                  - group "Edge from person_indraj to cap_fullstack" [ref=f4e185] [cursor=pointer]:
+                    - generic [ref=f4e188]: HAS CAPABILITY
+                - img:
+                  - group "Edge from person_indraj to cap_ai" [ref=f4e190] [cursor=pointer]:
+                    - generic [ref=f4e193]: HAS CAPABILITY
+                - img:
+                  - group "Edge from person_indraj to cap_db" [ref=f4e195] [cursor=pointer]:
+                    - generic [ref=f4e198]: HAS CAPABILITY
+                - img:
+                  - group "Edge from person_indraj to cap_auto" [ref=f4e200] [cursor=pointer]:
+                    - generic [ref=f4e203]: HAS CAPABILITY
+                - img:
+                  - group "Edge from person_indraj to skill_aiml" [ref=f4e205] [cursor=pointer]:
+                    - generic [ref=f4e208]: HAS SKILL
+                - img:
+                  - group "Edge from person_indraj to skill_problem" [ref=f4e210] [cursor=pointer]:
+                    - generic [ref=f4e213]: HAS SKILL
+                - img:
+                  - group "Edge from cap_frontend to skill_react" [ref=f4e215] [cursor=pointer]:
+                    - generic [ref=f4e218]: REQUIRES SKILL
+                - img:
+                  - group "Edge from cap_ai to skill_python" [ref=f4e220] [cursor=pointer]:
+                    - generic [ref=f4e223]: REQUIRES SKILL
+                - img:
+                  - group "Edge from cap_ai to skill_aiml" [ref=f4e225] [cursor=pointer]:
+                    - generic [ref=f4e228]: REQUIRES SKILL
+              - generic:
+                - group [ref=f4e230]:
+                  - generic [ref=f4e231] [cursor=pointer]:
+                    - generic [ref=f4e236]: I
+                    - generic [ref=f4e237]: Indraj Gupta
+                    - generic [ref=f4e238]: PERSON · ROOT ANCHOR
+                - group [ref=f4e239]:
+                  - generic [ref=f4e240] [cursor=pointer]:
+                    - generic [ref=f4e245]:
+                      - generic [ref=f4e246]: CORE CAPABILITY
+                      - generic [ref=f4e251]: + Explore
+                    - generic [ref=f4e253]: Frontend Development
+                    - generic [ref=f4e254]:
+                      - generic [ref=f4e255]: 1 Supporting Items
+                      - generic [ref=f4e260]: demonstrated
+                - group [ref=f4e261]:
+                  - generic [ref=f4e262] [cursor=pointer]:
+                    - generic [ref=f4e267]:
+                      - generic [ref=f4e268]: CORE CAPABILITY
+                      - generic [ref=f4e273]: + Explore
+                    - generic [ref=f4e275]: Full-Stack Development
+                    - generic [ref=f4e276]:
+                      - generic [ref=f4e277]: Demonstrated
+                      - generic [ref=f4e282]: demonstrated
+                - group [ref=f4e283]:
+                  - generic [ref=f4e284] [cursor=pointer]:
+                    - generic [ref=f4e289]:
+                      - generic [ref=f4e290]: CORE CAPABILITY
+                      - generic [ref=f4e295]: + Explore
+                    - generic [ref=f4e297]: AI Integration
+                    - generic [ref=f4e298]:
+                      - generic [ref=f4e299]: 2 Supporting Items
+                      - generic [ref=f4e304]: demonstrated
+                - group [ref=f4e305]:
+                  - generic [ref=f4e306] [cursor=pointer]:
+                    - generic [ref=f4e311]:
+                      - generic [ref=f4e312]: CORE CAPABILITY
+                      - generic [ref=f4e317]: + Explore
+                    - generic [ref=f4e319]: Database Integration
+                    - generic [ref=f4e320]:
+                      - generic [ref=f4e321]: Demonstrated
+                      - generic [ref=f4e326]: demonstrated
+                - group [ref=f4e327]:
+                  - generic [ref=f4e328] [cursor=pointer]:
+                    - generic [ref=f4e333]:
+                      - generic [ref=f4e334]: CORE CAPABILITY
+                      - generic [ref=f4e339]: + Explore
+                    - generic [ref=f4e341]: Automation
+                    - generic [ref=f4e342]:
+                      - generic [ref=f4e343]: Demonstrated
+                      - generic [ref=f4e348]: used
+                - group [ref=f4e349]:
+                  - generic [ref=f4e350] [cursor=pointer]:
+                    - generic [ref=f4e355]: AI/ML
+                    - generic [ref=f4e358]: Demonstrated
+                - group [ref=f4e359]:
+                  - generic [ref=f4e360] [cursor=pointer]:
+                    - generic [ref=f4e365]: Python
+                    - generic [ref=f4e368]: Demonstrated
+                - group [ref=f4e369]:
+                  - generic [ref=f4e370] [cursor=pointer]:
+                    - generic [ref=f4e375]: React
+                    - generic [ref=f4e378]: Demonstrated
+                - group [ref=f4e379]:
+                  - generic [ref=f4e380] [cursor=pointer]:
+                    - generic [ref=f4e385]: Problem Solving
+                    - generic [ref=f4e388]: Demonstrated
+          - generic [ref=f4e389]:
+            - button "Zoom in" [ref=f4e390] [cursor=pointer]
+            - button "Zoom out" [ref=f4e394] [cursor=pointer]
+            - button "Fit graph" [ref=f4e399] [cursor=pointer]
+            - button "Reset view" [ref=f4e405] [cursor=pointer]
+          - generic [ref=f4e409]:
+            - button "Filter" [ref=f4e410] [cursor=pointer]
+            - button "Layout" [ref=f4e413] [cursor=pointer]
+            - button "Legend" [ref=f4e419] [cursor=pointer]
+  - generic [ref=f4e423]:
+    - generic [ref=f4e424]:
+      - generic [ref=f4e425]: "3"
+      - generic [ref=f4e426]: Projects
+    - generic [ref=f4e428]:
+      - generic [ref=f4e429]: "6"
+      - generic [ref=f4e430]: Skills
+    - generic [ref=f4e432]:
+      - generic [ref=f4e433]: "8"
+      - generic [ref=f4e434]: Technologies
+    - generic [ref=f4e436]:
+      - generic [ref=f4e437]: "5"
+      - generic [ref=f4e438]: Capabilities
+    - generic [ref=f4e440]:
+      - generic [ref=f4e441]: "51"
+      - generic [ref=f4e442]: Connections
+    - generic [ref=f4e444]:
+      - generic [ref=f4e445]: "3"
+      - generic [ref=f4e446]: Evidence

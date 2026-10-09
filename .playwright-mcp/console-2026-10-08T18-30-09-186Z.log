@@ -1,0 +1,54 @@
+[     230ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=f836667a:15804
+[     397ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:5173/login:0
+[   61502ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:5173/signup:0
+[  352641ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://bxrurcqgzrjqcrbbblgz.supabase.co/auth/v1/signup?redirect_to=http%3A%2F%2Flocalhost%3A5173%2Fdashboard:0
+[  459547ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:5173/login:0
+[  464299ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:5173/signup:0
+[  520087ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://bxrurcqgzrjqcrbbblgz.supabase.co/auth/v1/signup?redirect_to=http%3A%2F%2Flocalhost%3A5173%2Fdashboard:0
+[  559592ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://bxrurcqgzrjqcrbbblgz.supabase.co/auth/v1/signup?redirect_to=http%3A%2F%2Flocalhost%3A5173%2Fdashboard:0
+[  563537ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=f836667a:15804
+[  563687ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:5173/signup:0
+[  592083ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://bxrurcqgzrjqcrbbblgz.supabase.co/auth/v1/signup?redirect_to=http%3A%2F%2Flocalhost%3A5173%2Fdashboard:0
+[  649412ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://bxrurcqgzrjqcrbbblgz.supabase.co/auth/v1/signup?redirect_to=http%3A%2F%2Flocalhost%3A5173%2Fdashboard:0
+[  749864ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:5173/login:0
+[  783009ms] [WARNING] React Flow: It seems like you are hiding the attribution. Please only do this when you are subscribed to React Flow Pro: https://reactflow.dev/remove-attr
+%cYou can ignore this warning if you are subscribed. font-style: italic; @ http://localhost:5173/@vite/client:356
+[  895340ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=f836667a:15804
+[  896412ms] [WARNING] React Flow: It seems like you are hiding the attribution. Please only do this when you are subscribed to React Flow Pro: https://reactflow.dev/remove-attr
+%cYou can ignore this warning if you are subscribed. font-style: italic; @ http://localhost:5173/@vite/client:356
+[  898092ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://bxrurcqgzrjqcrbbblgz.supabase.co/rest/v1/graph_nodes?select=*&user_id=eq.20579029-a62f-4a52-97cf-864b5b9df58c:0
+[  898106ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://bxrurcqgzrjqcrbbblgz.supabase.co/rest/v1/graph_edges?select=*&user_id=eq.20579029-a62f-4a52-97cf-864b5b9df58c:0
+[  906817ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=f836667a:15804
+[  907617ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://bxrurcqgzrjqcrbbblgz.supabase.co/rest/v1/graph_nodes?select=*&user_id=eq.20579029-a62f-4a52-97cf-864b5b9df58c:0
+[  907617ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://bxrurcqgzrjqcrbbblgz.supabase.co/rest/v1/graph_edges?select=*&user_id=eq.20579029-a62f-4a52-97cf-864b5b9df58c:0
+[  914467ms] [WARNING] React Flow: It seems like you are hiding the attribution. Please only do this when you are subscribed to React Flow Pro: https://reactflow.dev/remove-attr
+%cYou can ignore this warning if you are subscribed. font-style: italic; @ http://localhost:5173/@vite/client:356
+[  922548ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=f836667a:15804
+[  922744ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://bxrurcqgzrjqcrbbblgz.supabase.co/rest/v1/graph_nodes?select=*&user_id=eq.20579029-a62f-4a52-97cf-864b5b9df58c:0
+[  922744ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://bxrurcqgzrjqcrbbblgz.supabase.co/rest/v1/graph_edges?select=*&user_id=eq.20579029-a62f-4a52-97cf-864b5b9df58c:0
+[  925846ms] [WARNING] React Flow: It seems like you are hiding the attribution. Please only do this when you are subscribed to React Flow Pro: https://reactflow.dev/remove-attr
+%cYou can ignore this warning if you are subscribed. font-style: italic; @ http://localhost:5173/@vite/client:356
+[ 2265483ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5173/src/pages/LandingPage.tsx?t=1791486474549:0
+[ 2265492ms] [ERROR] [vite] Failed to reload /src/pages/LandingPage.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:5173/@vite/client:356
+[ 2856811ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://bxrurcqgzrjqcrbbblgz.supabase.co/auth/v1/user:0
+[ 2856938ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:5173/login:0
+[ 3256073ms] [ERROR] Failed to load resource: the server responded with a status of 502 (Bad Gateway) @ http://localhost:5173/api/analyze:0
+[ 3256206ms] [ERROR] Failed to load resource: the server responded with a status of 502 (Bad Gateway) @ http://localhost:5173/api/analyze:0
+[ 4470588ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:5173/@vite/client:1081
+[ 4471463ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=f836667a:15804
+[ 4474364ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://bxrurcqgzrjqcrbbblgz.supabase.co/rest/v1/graph_nodes?select=*&user_id=eq.20579029-a62f-4a52-97cf-864b5b9df58c:0
+[ 4474364ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://bxrurcqgzrjqcrbbblgz.supabase.co/rest/v1/graph_edges?select=*&user_id=eq.20579029-a62f-4a52-97cf-864b5b9df58c:0
+[ 4475207ms] [ERROR] Failed to load resource: the server responded with a status of 502 (Bad Gateway) @ http://localhost:5173/api/analyze:0
+[ 4475208ms] [ERROR] Failed to load resource: the server responded with a status of 502 (Bad Gateway) @ http://localhost:5173/api/analyze:0
+[ 4514005ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:5173/@vite/client:1081
+[ 4515410ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=f836667a:15804
+[ 4516906ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://bxrurcqgzrjqcrbbblgz.supabase.co/rest/v1/graph_edges?select=*&user_id=eq.20579029-a62f-4a52-97cf-864b5b9df58c:0
+[ 4516911ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://bxrurcqgzrjqcrbbblgz.supabase.co/rest/v1/graph_nodes?select=*&user_id=eq.20579029-a62f-4a52-97cf-864b5b9df58c:0
+[ 4529246ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:5173/@vite/client:1081
+[ 4530684ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=f836667a:15804
+[ 4530939ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://bxrurcqgzrjqcrbbblgz.supabase.co/rest/v1/graph_edges?select=*&user_id=eq.20579029-a62f-4a52-97cf-864b5b9df58c:0
+[ 4530953ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://bxrurcqgzrjqcrbbblgz.supabase.co/rest/v1/graph_nodes?select=*&user_id=eq.20579029-a62f-4a52-97cf-864b5b9df58c:0
+[ 4665150ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:5173/@vite/client:1081
+[ 4687200ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=f836667a:15804
+[ 4687946ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://bxrurcqgzrjqcrbbblgz.supabase.co/rest/v1/graph_edges?select=*&user_id=eq.20579029-a62f-4a52-97cf-864b5b9df58c:0
+[ 4687947ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://bxrurcqgzrjqcrbbblgz.supabase.co/rest/v1/graph_nodes?select=*&user_id=eq.20579029-a62f-4a52-97cf-864b5b9df58c:0

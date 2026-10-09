@@ -1,0 +1,7 @@
+[     330ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=f836667a:15804
+[     762ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://bxrurcqgzrjqcrbbblgz.supabase.co/rest/v1/graphs?select=*&user_id=eq.20579029-a62f-4a52-97cf-864b5b9df58c&order=created_at.desc:0
+[     764ms] [WARNING] [GraphStore] Graphs table query error: Could not find the table 'public.graphs' in the schema cache @ http://localhost:5173/@vite/client:356
+[    1677ms] [WARNING] React Flow: It seems like you are hiding the attribution. Please only do this when you are subscribed to React Flow Pro: https://reactflow.dev/remove-attr
+%cYou can ignore this warning if you are subscribed. font-style: italic; @ http://localhost:5173/@vite/client:356
+[   98967ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://bxrurcqgzrjqcrbbblgz.supabase.co/rest/v1/graphs?select=*&user_id=eq.20579029-a62f-4a52-97cf-864b5b9df58c&order=created_at.desc:0
+[   98969ms] [WARNING] [GraphStore] Graphs table query error: Could not find the table 'public.graphs' in the schema cache @ http://localhost:5173/@vite/client:356
