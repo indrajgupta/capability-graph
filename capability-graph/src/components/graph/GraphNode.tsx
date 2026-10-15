@@ -4,14 +4,14 @@
 // Medium Priority: Projects, Supporting Skills, Technologies
 // Detail Priority: Evidence, Experience, Education, Certifications
 
-import React, { memo } from 'react';
+import { memo } from 'react';
 import { Handle, Position } from '@xyflow/react';
-import type { NodeProps } from '@xyflow/react';
+import type { NodeProps, Node } from '@xyflow/react';
 import type { GraphNodeData, NodeType } from '../../types/graph';
 import { NODE_STYLES } from './nodeStyles';
-import { Sparkles, Layers, FolderGit2, CheckCircle2, ChevronRight, Check } from 'lucide-react';
+import { Sparkles, Layers, FolderGit2, CheckCircle2, Check } from 'lucide-react';
 
-interface GraphNodeProps extends NodeProps {
+export interface GraphNodeProps extends NodeProps<Node<GraphNodeData>> {
   data: GraphNodeData;
   type: NodeType;
 }

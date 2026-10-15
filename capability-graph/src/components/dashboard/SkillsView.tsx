@@ -3,7 +3,7 @@
 // Strictly adheres to PRD §7: No arbitrary percentages like "Python 87%".
 
 import React, { useState, useEffect } from 'react';
-import { Zap, CheckCircle2, AlertCircle, HelpCircle, ArrowRight, Layers } from 'lucide-react';
+import { Zap, ArrowRight } from 'lucide-react';
 import { graphStore } from '../../services/graphStore';
 import type { GraphNodeData } from '../../types/graph';
 
@@ -26,11 +26,6 @@ export const SkillsView: React.FC<SkillsViewProps> = ({ onExploreInGraph }) => {
   const claimedSkills = allSkills.filter(s => s.evidenceStatus === 'claimed');
 
   const renderSkillCard = (skill: GraphNodeData) => {
-    // Find connected projects through HAS_SKILL or DEMONSTRATES
-    const connectedEdges = storeState.edges.filter(e => e.source === skill.id || e.target === skill.id);
-    const connectedProjects = storeState.nodes.filter(n =>
-      n.type === 'project' && connectedEdges.some(e => e.source === n.id || e.target === n.id)
-    );
 
     return (
       <div

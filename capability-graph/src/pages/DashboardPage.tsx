@@ -3,7 +3,6 @@
 // Fully connected to Projects, Skills, Experience, Education, Evidence, Settings, and AI Analysis.
 
 import React, { useState, useCallback } from 'react';
-import { useNavigate } from 'react-router-dom';
 import { Sidebar } from '../components/dashboard/Sidebar';
 import type { SidebarPage } from '../components/dashboard/Sidebar';
 import { Header } from '../components/dashboard/Header';
@@ -23,7 +22,6 @@ import type { GraphNodeData } from '../types/graph';
 import { graphStore } from '../services/graphStore';
 
 export const DashboardPage: React.FC<{ initialPage?: SidebarPage }> = ({ initialPage = 'dashboard' }) => {
-  const navigate = useNavigate();
   const [activePage, setActivePage] = useState<SidebarPage>(initialPage === 'add' ? 'dashboard' : initialPage);
   const [selectedNode, setSelectedNode] = useState<GraphNodeData | null>(null);
   const [searchHighlight, setSearchHighlight] = useState<string | null>(null);

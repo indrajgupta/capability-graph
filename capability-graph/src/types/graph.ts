@@ -74,6 +74,7 @@ export interface GraphNodeData {
   supportingCount?: number;
   isExpanded?: boolean;
   priorityLevel?: 'high' | 'medium' | 'low';
+  [key: string]: unknown;
 }
 
 export interface GraphEdgeData {
@@ -109,5 +110,48 @@ export interface GraphRecord {
   updated_at?: string;
   node_count?: number;
   edge_count?: number;
+}
+
+/**
+ * Type guard to validate whether an unknown object is valid GraphNodeData.
+ * Confirms required fields 'id', 'name', and 'type' exist and are non-empty strings.
+ */
+export function isGraphNodeData(data: unknown): data is GraphNodeData {
+  if (!data || typeof data !== 'object') return false;
+  const d = data as Record<string, unknown>;
+  return (
+    typeof d.id === 'string' &&
+    d.id.length > 0 &&
+    typeof d.name === 'string' &&
+    typeof d.type === 'string'
+  );
+}
+
+/**
+ * Safe mapping function to convert loosely-typed or external node data into GraphNodeData.
+ * Falls back gracefully if data is missing optional properties or has an alternate shape.
+ */
+export function toGraphNodeData(data: unknown, fallbackId = ''): GraphNodeData | null {
+  if (isGraphNodeData(data)) {
+    return data;
+  }
+  if (data && typeof data === 'object') {
+    const d = data as Record<string, unknown>;
+    const id = typeof d.id === 'string' && d.id.length > 0 ? d.id : fallbackId;
+    const name = typeof d.name === 'string' ? d.name : (typeof d.label === 'string' ? d.label : 'Unnamed Node');
+    const type = (typeof d.type === 'string' && NODE_TYPES.includes(d.type as NodeType)
+      ? d.type
+      : 'skill') as NodeType;
+
+    if (id) {
+      return {
+        id,
+        name,
+        type,
+        ...d,
+      };
+    }
+  }
+  return null;
 }
 

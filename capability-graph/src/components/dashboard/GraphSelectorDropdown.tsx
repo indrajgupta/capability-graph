@@ -6,7 +6,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import {
   GitBranch, ChevronDown, Plus, Check, Edit2,
-  Trash2, X, AlertTriangle, Layers, Clock
+  Trash2, X, AlertTriangle, Layers
 } from 'lucide-react';
 import { graphStore } from '../../services/graphStore';
 import type { GraphRecord } from '../../types/graph';

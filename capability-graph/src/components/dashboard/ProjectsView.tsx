@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { Briefcase, ArrowRight, Globe, Star, Plus } from 'lucide-react';
+import { ArrowRight, Globe, Plus } from 'lucide-react';
 import { GithubIcon } from '../common/BrandIcons';
 import { graphStore } from '../../services/graphStore';
 import type { GraphNodeData } from '../../types/graph';
-import { NODE_STYLES } from '../graph/nodeStyles';
 
 interface ProjectsViewProps {
   onExploreInGraph: (nodeId: string) => void;

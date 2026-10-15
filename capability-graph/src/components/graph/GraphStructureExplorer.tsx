@@ -9,18 +9,18 @@ import {
   useNodesState, useEdgesState, useReactFlow,
   ReactFlowProvider
 } from '@xyflow/react';
-import type { Node, Edge, NodeMouseHandler } from '@xyflow/react';
+import type { NodeMouseHandler } from '@xyflow/react';
 import '@xyflow/react/dist/style.css';
 
 import {
-  Compass, ArrowLeft, Maximize2, RotateCcw,
-  Layers, Info, X, Loader2, Sparkles, Network, ExternalLink
+  ArrowLeft, Maximize2, Info, X, Loader2, Network
 } from 'lucide-react';
 
 import { nodeTypes } from './GraphNode';
 import { NODE_STYLES } from './nodeStyles';
-import type { GraphNodeData, GraphEdgeData, NodeType } from '../../types/graph';
-import { buildReactFlowData, computeLayoutPositions } from '../../data/mockGraph';
+import type { GraphNodeData, GraphEdgeData } from '../../types/graph';
+import { isGraphNodeData, toGraphNodeData } from '../../types/graph';
+import { buildReactFlowData } from '../../data/mockGraph';
 
 export interface GraphStructureExplorerProps {
   isOpen: boolean;
@@ -112,7 +112,8 @@ const ExplorerCanvas: React.FC<{
   }, [selectedNode, rawEdges, setNodes, setEdges]);
 
   const onNodeClick: NodeMouseHandler = useCallback((_e, node) => {
-    const data = node.data as GraphNodeData;
+    const data = isGraphNodeData(node.data) ? node.data : toGraphNodeData(node.data, node.id);
+    if (!data) return;
     onNodeSelect(selectedNode?.id === data.id ? null : data);
   }, [selectedNode, onNodeSelect]);
 

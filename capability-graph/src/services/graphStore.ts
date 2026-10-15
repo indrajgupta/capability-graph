@@ -68,6 +68,10 @@ class GraphStore {
     this.init();
   }
 
+  public isInitialized(): boolean {
+    return this.initialized;
+  }
+
   public getState(): GraphStoreState {
     return { ...this.state };
   }

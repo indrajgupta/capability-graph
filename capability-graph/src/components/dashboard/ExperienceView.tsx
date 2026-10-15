@@ -2,7 +2,7 @@
 // Work experience timeline connected to projects, capabilities, and technologies.
 
 import React, { useState, useEffect } from 'react';
-import { Clock, Briefcase, ArrowRight, Building, Calendar } from 'lucide-react';
+import { ArrowRight, Building, Calendar } from 'lucide-react';
 import { graphStore } from '../../services/graphStore';
 
 interface ExperienceViewProps {

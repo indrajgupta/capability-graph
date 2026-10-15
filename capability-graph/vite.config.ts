@@ -1,6 +1,6 @@
 import react from '@vitejs/plugin-react';
 import { defineConfig, loadEnv } from 'vite';
-import { executeAnalyze } from './src/server/analyzeHandler';
+import { executeAnalyze } from './src/server/analyzeHandler.ts';
 
 // https://vite.dev/config/
 export default defineConfig(({ mode }) => {

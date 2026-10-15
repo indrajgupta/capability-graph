@@ -9,17 +9,17 @@ import {
   useNodesState, useEdgesState, useReactFlow,
   ConnectionMode, ReactFlowProvider
 } from '@xyflow/react';
-import type { Node, Edge, NodeMouseHandler } from '@xyflow/react';
+import type { NodeMouseHandler } from '@xyflow/react';
 import '@xyflow/react/dist/style.css';
 
 import { nodeTypes } from './GraphNode';
 import { GraphControls } from './GraphControls';
 import { GraphLegend } from './GraphLegend';
 import type { GraphNodeData, NodeType } from '../../types/graph';
+import { isGraphNodeData, toGraphNodeData } from '../../types/graph';
 import {
   buildReactFlowData,
   computeLayoutPositions,
-  calculateCapabilityMetrics,
   getCoreGraphNodeIds,
 } from '../../data/mockGraph';
 
@@ -153,7 +153,8 @@ const CapabilityGraphInner: React.FC<CapabilityGraphProps> = ({
         isDimmed = !isSelected && !isConnected;
       }
 
-      const isFiltered = activeFilters ? !activeFilters.includes((n.data as GraphNodeData).type) : false;
+      const nodeData = isGraphNodeData(n.data) ? n.data : toGraphNodeData(n.data, n.id);
+      const isFiltered = activeFilters && nodeData ? !activeFilters.includes(nodeData.type) : false;
 
       return {
         ...n,
@@ -209,7 +210,8 @@ const CapabilityGraphInner: React.FC<CapabilityGraphProps> = ({
 
   // Node click handler with Progressive Disclosure expansion
   const onNodeClick: NodeMouseHandler = useCallback((_event, node) => {
-    const nodeData = node.data as GraphNodeData;
+    const nodeData = isGraphNodeData(node.data) ? node.data : toGraphNodeData(node.data, node.id);
+    if (!nodeData) return;
 
     // Toggle expansion for capabilities and projects in progressive mode
     if (disclosureMode === 'progressive') {

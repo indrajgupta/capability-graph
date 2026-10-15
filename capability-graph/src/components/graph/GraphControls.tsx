@@ -5,7 +5,7 @@ import React from 'react';
 import { useReactFlow } from '@xyflow/react';
 import {
   ZoomIn, ZoomOut, Maximize2, RotateCcw,
-  Filter, LayoutGrid, BookOpen, X
+  Filter, LayoutGrid, BookOpen
 } from 'lucide-react';
 import type { NodeType } from '../../types/graph';
 import { NODE_STYLES } from './nodeStyles';

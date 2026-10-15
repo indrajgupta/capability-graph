@@ -2,7 +2,7 @@
 // Realistic demo graph data for Indraj Gupta.
 // Supports progressive disclosure, capability metrics calculation, and multi-layout rendering.
 
-import type { GraphNodeData, GraphEdgeData, NodeType } from '../types/graph';
+import type { GraphNodeData, GraphEdgeData } from '../types/graph';
 import type { Node, Edge } from '@xyflow/react';
 
 export const mockNodes: GraphNodeData[] = [
@@ -568,11 +568,11 @@ export function buildReactFlowData(
   edges: GraphEdgeData[],
   layout: 'radial' | 'hierarchical' | 'force' = 'radial',
   expandedNodeIds?: Set<string>
-): { nodes: Node[]; edges: Edge[] } {
+): { nodes: Node<GraphNodeData>[]; edges: Edge[] } {
   const positions = computeLayoutPositions(nodes, layout, edges);
   const metrics = calculateCapabilityMetrics(nodes, edges);
 
-  const rfNodes: Node[] = nodes.map((n) => {
+  const rfNodes: Node<GraphNodeData>[] = nodes.map((n) => {
     const metric = metrics.get(n.id);
     const isCore = n.type === 'capability' || !!metric?.isCore;
     const isExpanded = expandedNodeIds ? expandedNodeIds.has(n.id) : false;

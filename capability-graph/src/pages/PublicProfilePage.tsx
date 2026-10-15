@@ -4,14 +4,10 @@
 
 import React, { useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import {
-  Hexagon, ExternalLink, Share2,
-  CheckCircle2, ArrowLeft, Star, Briefcase, Zap, ShieldCheck
-} from 'lucide-react';
+import { Hexagon, Share2, ArrowLeft } from 'lucide-react';
 import { GithubIcon, LinkedinIcon } from '../components/common/BrandIcons';
 import { CapabilityGraph } from '../components/graph/CapabilityGraph';
 import { NodeDetails } from '../components/dashboard/NodeDetails';
-import { mockNodes, mockEdges } from '../data/mockGraph';
 import type { GraphNodeData } from '../types/graph';
 
 export const PublicProfilePage: React.FC = () => {
@@ -102,8 +98,8 @@ export const PublicProfilePage: React.FC = () => {
             I
           </div>
 
-          <h1 style={{ fontSize: 18, fontWeight: 700, margin: '0 0 4px' }}>
-            Indraj Gupta
+          <h1 style={{ fontSize: 18, fontWeight: 700, margin: '0 0 4px', textTransform: 'capitalize' }}>
+            {username ? username.replace(/-/g, ' ') : 'Indraj Gupta'}
           </h1>
           <div style={{ color: '#60a5fa', fontSize: 12.5, fontWeight: 500, marginBottom: 8 }}>
             AI/ML Developer & Full-Stack Engineer

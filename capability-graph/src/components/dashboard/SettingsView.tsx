@@ -2,14 +2,14 @@
 // Profile settings, Supabase connection status, and graph export options.
 
 import React, { useState } from 'react';
-import { Settings, Download, Database, CheckCircle2, AlertTriangle, RefreshCw, User, ExternalLink } from 'lucide-react';
+import { Download, Database, CheckCircle2, AlertTriangle } from 'lucide-react';
 import { isSupabaseConfigured } from '../../lib/supabase';
 import { mockNodes, mockEdges } from '../../data/mockGraph';
 
 import { useAuth } from '../../context/AuthContext';
 
 export const SettingsView: React.FC = () => {
-  const { user, profile, updateProfile, isConfigured } = useAuth();
+  const { user, profile, updateProfile } = useAuth();
 
   const [name, setName] = useState(profile?.name || user?.user_metadata?.full_name || 'Indraj Gupta');
   const [headline, setHeadline] = useState(profile?.bio || 'AI/ML Developer & Full-Stack Engineer');

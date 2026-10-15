@@ -2,7 +2,7 @@
 // Education, degrees, and verified certifications connected to the graph.
 
 import React, { useState, useEffect } from 'react';
-import { GraduationCap, Award, ExternalLink, ArrowRight } from 'lucide-react';
+import { GraduationCap, Award, ArrowRight } from 'lucide-react';
 import { graphStore } from '../../services/graphStore';
 
 interface EducationViewProps {

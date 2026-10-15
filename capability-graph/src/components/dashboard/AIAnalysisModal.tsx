@@ -3,9 +3,7 @@
 // Responses contain clickable entity badges that focus the graph on the referenced node.
 
 import React, { useState } from 'react';
-import { Sparkles, X, ArrowRight, MessageSquare, Bot, User, CheckCircle2, AlertCircle } from 'lucide-react';
-import { mockNodes, mockEdges } from '../../data/mockGraph';
-import type { GraphNodeData } from '../../types/graph';
+import { Sparkles, X, ArrowRight, Bot, User } from 'lucide-react';
 import { NODE_STYLES } from '../graph/nodeStyles';
 
 interface AIAnalysisModalProps {

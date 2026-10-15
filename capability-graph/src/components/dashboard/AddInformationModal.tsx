@@ -7,10 +7,9 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import {
   X, Plus, Upload, Briefcase, Zap, Clock,
-  Sparkles, Layers, GitBranch, AlertCircle
+  Sparkles, Layers, AlertCircle
 } from 'lucide-react';
 import { graphStore } from '../../services/graphStore';
-import type { GraphRecord } from '../../types/graph';
 
 export interface AddInformationModalProps {
   isOpen: boolean;
@@ -32,7 +31,6 @@ export const AddInformationModal: React.FC<AddInformationModalProps> = ({
 
   // Multi-graph inputs
   const [newGraphName, setNewGraphName] = useState('');
-  const [newGraphDesc, setNewGraphDesc] = useState('');
   const [targetGraphId, setTargetGraphId] = useState<string>('');
 
   // Form tab selection
@@ -44,12 +42,10 @@ export const AddInformationModal: React.FC<AddInformationModalProps> = ({
   const [projectTech, setProjectTech] = useState('');
   const [projectGithub, setProjectGithub] = useState('');
   const [projectDemo, setProjectDemo] = useState('');
-  const [projectRole, setProjectRole] = useState('');
 
   // Experience state
   const [expRole, setExpRole] = useState('');
   const [expCompany, setExpCompany] = useState('');
-  const [expPeriod, setExpPeriod] = useState('');
   const [expDesc, setExpDesc] = useState('');
 
   // Skill state
@@ -58,7 +54,6 @@ export const AddInformationModal: React.FC<AddInformationModalProps> = ({
 
   // Resume state
   const [resumeText, setResumeText] = useState('');
-  const [resumeLoaded, setResumeLoaded] = useState(false);
 
   useEffect(() => {
     return graphStore.subscribe((state) => {
@@ -97,7 +92,6 @@ PROJECTS:
 SKILLS & TECH:
 Python, React, TypeScript, Vite, Supabase, FastAPI, PostgreSQL, Git, System Design.`
     );
-    setResumeLoaded(true);
   };
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -115,11 +109,11 @@ Python, React, TypeScript, Vite, Supabase, FastAPI, PostgreSQL, Git, System Desi
 
     let info = '';
     if (activeTab === 'project') {
-      info = `I built a project called ${projectName || 'FarmSeva'}. ${projectDesc || ''}. Technologies used: ${projectTech || ''}. Role: ${projectRole || ''}. GitHub: ${projectGithub || ''}. Live demo: ${projectDemo || ''}.`;
+      info = `I built a project called ${projectName || 'FarmSeva'}. ${projectDesc || ''}. Technologies used: ${projectTech || ''}. GitHub: ${projectGithub || ''}. Live demo: ${projectDemo || ''}.`;
     } else if (activeTab === 'resume') {
       info = resumeText || 'I use React and Supabase. I built FarmSeva using React, Supabase, and Vite.';
     } else if (activeTab === 'experience') {
-      info = `I worked as ${expRole} at ${expCompany} (${expPeriod}). Key contributions: ${expDesc}.`;
+      info = `I worked as ${expRole} at ${expCompany}. Key contributions: ${expDesc}.`;
     } else if (activeTab === 'skill') {
       info = `My skills include ${skillName} (${skillStatus}).`;
     }

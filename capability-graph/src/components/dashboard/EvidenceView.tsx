@@ -2,7 +2,7 @@
 // First-class evidence repository. Displays proof artifacts supporting claimed capabilities and skills.
 
 import React, { useState, useEffect } from 'react';
-import { LinkIcon, ExternalLink, Globe, ShieldCheck, ArrowRight } from 'lucide-react';
+import { ExternalLink, ShieldCheck, ArrowRight } from 'lucide-react';
 import { GithubIcon } from '../common/BrandIcons';
 import { graphStore } from '../../services/graphStore';
 import type { GraphNodeData } from '../../types/graph';
